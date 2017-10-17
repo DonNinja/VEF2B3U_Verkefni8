@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dæmi 2 Verkefni 8</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+	<script type="text/javascript">
+		"use strict";
+		var divs = document.getElementsByTagName('div');
+		for (var i = 0, div; div = divs[i]; i++)
+		{
+			div.setAttribute('style', 'background-color: darkred; color: lime;');
+			div.textContent = "The background is red, like the blood of my enemies";
+			div.textContent += ", but for real I don't know what you want me to do, is this enough?";
+		}
+	</script>
+</body>
+</html>
