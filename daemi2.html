@@ -16,8 +16,14 @@
 		var divs = document.getElementsByTagName('div');
 		for (var i = 0, div; div = divs[i]; i++)
 		{
-			div.setAttribute('style', 'background-color: darkred; color: lime;');
-			div.textContent = "The background is red, like the blood of my enemies";
+			if (i % 2 === 0) {
+			div.setAttribute('style', 'background-color: lightgreen; color: darkred;');
+			div.textContent = "The background is green, like the grass on my lawn";
+			}
+			else {
+				div.setAttribute('style', 'background-color: darkred; color: lightgreen;');
+				div.textContent = "The background is red, like the blood of my enemies";
+			}
 			div.textContent += ", but for real I don't know what you want me to do, is this enough?";
 		}
 	</script>
