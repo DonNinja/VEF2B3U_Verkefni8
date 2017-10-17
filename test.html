@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test file</title>
+</head>
+<body>
+	<div>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+
+	<span></span>
+	<span></span>
+	<script type="text/javascript">
+		"use strict";
+		var div = document.getElementsByTagName('div')[0];
+		var step;
+		var array = ['this', 'and', 'that', 'and', 'mitch', 'and', 'match'];
+		var arr = [1, 2, 3, 4, 5, 99, 100];
+		for (step = 0; step < 5; step++) {
+		  // Runs 5 times, with values of step 0 through 4.
+		  div.innerHTML += '<p>Walking east ' + (step + 1) + ' steps</p>';
+		}
+		
+		var txt = "";
+		var person = {fname:"John", lname:"Doe", age:25, bla:"fsædaj"}; 
+		var x;
+		for (x in person) {
+		    txt += person[x] + " ";
+		}
+		document.getElementsByTagName("span")[0].innerHTML = txt;
+			document.write("<p></p>");
+		for (var i in array) {
+			document.write(array[i]);
+			if (array[i] != "and") {
+				document.write(", ");
+			}
+			else {
+				document.write(" ");
+			}
+		}
+
+		document.write("<p></p>");
+		for (var n in arr) {
+			document.write(n + " ");
+		}
+	</script>
+</body>
+</html>
