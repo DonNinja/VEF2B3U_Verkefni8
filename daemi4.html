@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dæmi 4 html</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		"use strict";
+		var animals = new Map();
+		animals.set('dog', 'woof');
+		animals.set('cat', 'meow');
+		animals.set('fox', '    ');
+		animals.set('camel', '*weird gurgling noise*');
+		console.log('animals size: ' + animals.size);
+		console.log('Does animals have something with "parakeet"? ' + animals.has('parakeet'));
+		console.log('Does animals have something with "dog"? ' + animals.has('dog'));
+		animals.delete('dog');
+		console.log('Does animals have something with "dog"? ' + animals.has('dog'));
+
+		for (var [key, value] of animals) {
+			console.log(key + ' goes ' + value);
+		}
+
+		animals.clear();
+		console.log('animals size: ' + animals.size);
+
+	</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ﻿1.	For er notað ef maður vill að eitthvað keyrir eitthvað sérstakt oft, for-in er notað þegar maður vill sýna allt sem er í einhverju objecti eða skrifa út það sem er í string array, for-of er notað þegar maður vill skrifa út allt sem er í int array.
 
-2.	Vefsíðan: Kóðinn: 
+2.	Vefsíðan: http://tsuts.tskoli.is/2t/2605993489/VEF2B3U/Verkefni%208/daemi2.html Kóðinn: 
 
-3.	Template literals eru string literals sem leyfa manni að nota embedded expressions. Kóadæmi: 
+3.	Template literals eru string literals sem leyfa manni að nota embedded expressions. Kóðadæmi: http://tsuts.tskoli.is/2t/2605993489/VEF2B3U/Verkefni%208/daemi3.html
 
-4.	
+4.	Síðan (Kíktu í console-ið): http://tsuts.tskoli.is/2t/2605993489/VEF2B3U/Verkefni%208/daemi4.html Kóðinn: 
