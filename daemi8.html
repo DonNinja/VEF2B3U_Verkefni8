@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dæmi 8</title>
+</head>
+<body>
+	<script type="text/javascript">
+		"use strict";
+		function logThis() {
+			console.log(this);
+		}
+
+		var explicitlySetLogThis =  logThis.bind({name: 'Gordon'});
+
+		console.log(explicitlySetLogThis());
+	</script>
+</body>
+</html>

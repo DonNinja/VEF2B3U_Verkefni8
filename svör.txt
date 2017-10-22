@@ -12,6 +12,6 @@
 
 7.	Arguments objectið er object sem kemur með Javascript, það hjálpar manni vinna með mörg object og það er hægt að nota það til þess að finna stærstu töluna í einhverjum lista af tölum. 
 
-8.	
+8.	Kóði: https://github.com/DonNinja/VEF2B3U_Verkefni8/blob/master/daemi8.html
 
-9.	promise 
+9.	promise er það sem sýnir resultið við ósamstilltum (e. asynchronous) operations. Maður notar promise í staðinn fyrir traditional callback hluti, það leyfir manni líka að höndla errors sem eru eins og try/catch í samstilltum approaches.
