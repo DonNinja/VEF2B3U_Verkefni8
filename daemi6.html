@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dæmi 6</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<button>Telja</button>
+
+	<p id="tala">0</p>
+	<script type="text/javascript">
+		"use strict";
+		var add = (function() {
+			var counter = 0;
+			return function() {return counter += 1;}
+		})();
+
+		var teljari = document.getElementsByTagName('button')[0];
+
+		function myFunction() {
+			document.getElementById('tala').innerHTML = add();
+		}
+
+		teljari.addEventListener('click', function() {myFunction();}, false);
+	</script>
+</body>
+</html>
