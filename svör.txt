@@ -8,9 +8,9 @@
 
 5.	Class er einfaldlega léttari leið til að vinna með objects og inheritance.
 
-6.	Closures er leið til þess að kalla í function sem er inn í öðru function á meðan við eru ekki í því, maður gæti notað það til þess að telja upp hluti og verið með kóðann hreinni. Síða: 
+6.	Closures er leið til þess að kalla í function sem er inn í öðru function á meðan við eru ekki í því, maður gæti notað það til þess að telja upp hluti og verið með kóðann hreinni. Síða: http://tsuts.tskoli.is/2t/2605993489/VEF2B3U/Verkefni%208/daemi6.html Kóði: https://github.com/DonNinja/VEF2B3U_Verkefni8/blob/master/daemi6.html
 
-7.	Arguments 
+7.	Arguments objectið er object sem kemur með Javascript, það hjálpar manni vinna með mörg object og það er hægt að nota það til þess að finna stærstu töluna í einhverjum lista af tölum. 
 
 8.	
 

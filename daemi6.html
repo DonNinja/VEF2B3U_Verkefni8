@@ -11,17 +11,17 @@
 	<script type="text/javascript">
 		"use strict";
 		var add = (function() {
-			var counter = 0;
-			return function() {return counter += 1;}
+			var counter = 0; //Tekur inn counter sem 0
+			return function() {return counter += 1;} //ef maður keyrir þetta function, þá bætir það 1 við counter
 		})();
 
 		var teljari = document.getElementsByTagName('button')[0];
 
 		function myFunction() {
-			document.getElementById('tala').innerHTML = add();
+			document.getElementById('tala').innerHTML = add(); //Keyrir add() function þegar þetta function keyrir
 		}
 
-		teljari.addEventListener('click', function() {myFunction();}, false);
+		teljari.addEventListener('click', function() {myFunction();}, false); //bæti við EventListener og keyrir myFunction
 	</script>
 </body>
 </html>

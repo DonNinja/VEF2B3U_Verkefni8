@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dæmi 7</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Skilar út stærstu tölunni.</p>
+	<p id="tala"></p>
+	<script>
+		"use strict";
+		function finnaMax() {
+			var i;
+			var max = -Infinity;
+			for (i = 0; i < arguments.length; i++) { //keyrir for lúppuna fyrir hverja tölu í arguments objectinu
+				if (arguments[i] > max) {
+					max = arguments[i]; // Ef talan er stærra en max variable-ið, þá fær max variable-ið það value
+				}
+			}
+			return max; //Skilar til baka max
+		}
+
+		document.getElementById('tala').innerHTML = finnaMax(13, 1, 1236645, 996348, 548, 96345, 936, 13, 345, 421, 234, 3); //Tekur inn þær tölur sem eru gefnar
+	</script>
+</body>
+</html>
